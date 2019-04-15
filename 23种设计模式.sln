@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryPattern(简单
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern(工厂方法模式)", "FactoryMethodPattern(工厂方法模式)\FactoryMethodPattern(工厂方法模式).csproj", "{BF777236-A360-4E52-B785-299E58F813F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern(建造者模式)", "BuilderPattern(建造者模式)\BuilderPattern(建造者模式).csproj", "{55D7C923-C95D-4F95-BC6E-1F43E6C78B5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BF777236-A360-4E52-B785-299E58F813F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF777236-A360-4E52-B785-299E58F813F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF777236-A360-4E52-B785-299E58F813F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D7C923-C95D-4F95-BC6E-1F43E6C78B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D7C923-C95D-4F95-BC6E-1F43E6C78B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D7C923-C95D-4F95-BC6E-1F43E6C78B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D7C923-C95D-4F95-BC6E-1F43E6C78B5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
