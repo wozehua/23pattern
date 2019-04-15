@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy(策略模式)", "23种设计模式\Strategy(策略模式).csproj", "{7553AACD-951E-4E89-9B0F-BAD4744FD166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装饰模式(Decorator)", "装饰模式(Decorator)\装饰模式(Decorator).csproj", "{11035F6F-8E1D-4136-9790-A1871D14ADA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "代理模式", "代理模式\代理模式.csproj", "{10164CF7-33BC-459E-91AA-1CDD943BF75D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryPattern(简单工厂模式）", "SimpleFactoryPattern(简单工厂模式）\SimpleFactoryPattern(简单工厂模式）.csproj", "{E95AAEEE-B2FE-4205-AC1A-692F72EB28C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern(工厂方法模式)", "FactoryMethodPattern(工厂方法模式)\FactoryMethodPattern(工厂方法模式).csproj", "{BF777236-A360-4E52-B785-299E58F813F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7553AACD-951E-4E89-9B0F-BAD4744FD166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7553AACD-951E-4E89-9B0F-BAD4744FD166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7553AACD-951E-4E89-9B0F-BAD4744FD166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7553AACD-951E-4E89-9B0F-BAD4744FD166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11035F6F-8E1D-4136-9790-A1871D14ADA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11035F6F-8E1D-4136-9790-A1871D14ADA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11035F6F-8E1D-4136-9790-A1871D14ADA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11035F6F-8E1D-4136-9790-A1871D14ADA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10164CF7-33BC-459E-91AA-1CDD943BF75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10164CF7-33BC-459E-91AA-1CDD943BF75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10164CF7-33BC-459E-91AA-1CDD943BF75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10164CF7-33BC-459E-91AA-1CDD943BF75D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95AAEEE-B2FE-4205-AC1A-692F72EB28C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95AAEEE-B2FE-4205-AC1A-692F72EB28C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95AAEEE-B2FE-4205-AC1A-692F72EB28C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95AAEEE-B2FE-4205-AC1A-692F72EB28C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF777236-A360-4E52-B785-299E58F813F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF777236-A360-4E52-B785-299E58F813F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF777236-A360-4E52-B785-299E58F813F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF777236-A360-4E52-B785-299E58F813F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82D55C21-334F-464F-9C2E-3CC2BC3169BD}
+	EndGlobalSection
+EndGlobal
