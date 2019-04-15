@@ -10,7 +10,7 @@
 
         public override void BuildPartB()
         {
-            product.Add("部件B");
+            product.Add("部件Basfas");
         }
 
         public override Product GetResult()
