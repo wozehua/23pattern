@@ -35,6 +35,27 @@ namespace PrototypePattern_原型模式_
             resumeShallowCopy.Display();
             resumeShallowCopyB.Display();
             Console.WriteLine("==========End继承C# IConeable接口实现的浅复制原型模式===================");
+            #region 深复制
+            //实现深复制的方式 反射（注意相互引用问题） 序列化和反序列化 表达式树
+            Console.WriteLine("========Start:继承C# IConeable接口实现的深复制原型模式=============");
+            //.Net 在System 命名空间中提供了IConeable 接口，我们实现这个接口就可以完成原型模式了
+            ResumeDeepCopy resumeDeepCopy = new ResumeDeepCopy("测试1");
+            resumeDeepCopy.SetPersonalInfo("男", 20);
+            resumeDeepCopy.SetWorkExperience(DateTime.Now, "测试公司");
+
+            ResumeDeepCopy resumeDeepCopyA = (ResumeDeepCopy)resumeDeepCopy.Clone();
+            resumeDeepCopyA.SetWorkExperience(DateTime.Now.AddYears(-1), "AA公司");
+
+            ResumeDeepCopy resumeDeepCopyB = (ResumeDeepCopy)resumeDeepCopy.Clone();
+
+            resumeDeepCopyB.SetPersonalInfo("女", 18);
+            resumeDeepCopyB.SetWorkExperience(DateTime.Now.AddYears(-2), "ZZ公司");
+
+            resumeDeepCopy.Display();
+            resumeDeepCopyA.Display();
+            resumeDeepCopyB.Display();
+            Console.WriteLine("==========End继承C# IConeable接口实现的深复制原型模式==================="); 
+            #endregion
 
             #region 浅复制模式说明
             //执行浅复制原型模式 我们可以发现两个问题
@@ -70,11 +91,27 @@ namespace PrototypePattern_原型模式_
             //字面量是源代码中书写的数字或字符串，用来表示一个明确类型的明确、固定的值。
             //字符串字面量（string literal）是指双引号引住的一系列字符,字符串字面量使用双引号标记
 
+            #region 驻留机制例子
+
+            //　String s = "Hello";
+            //Console.WriteLine(Object.ReferenceEquals("Hello", s));
+            //这段代码显示的是"True"还是"False"呢？可能大家认为是返回"False"，
+            //毕竟，我们有两个"Hello"字符串，且ReferenceEuqals只有在两个引用都指向同一对象时才返回true。
+            //然而，这段代码显示的是"True"。
+            //当CLR初始化时，它会创建一个内部的散列表，其中的键为字符串，
+            //值为指向托管堆中字符串对象的引用。刚开始，该表为空。
+            //当JIT编译器编译方 法要创建字符串时，它会在散列表中查找每一个文本常量字串。
+            //以上面的代码为例，编译器首先会查找第一个"Hello"字符串，
+            //且因为没有找到，便会在托管 堆中构造一个新的String对象（指向该字符串），
+            //然后将"Hello"字串和指向该对象的引用添加到散列表中。接着，
+            //JIT编译器在散列表中查找第二 个"Hello"字符串，这次因为会找到该字符串，所以不执行任何操作。
+
+            #endregion
             #endregion
             #endregion
             #endregion
 
-            #region MyRegion
+            #region 快捷键
 
             //Ctrl+D 复制当前列 也可以复制当前选中的列
 

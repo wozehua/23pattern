@@ -48,7 +48,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype.cs" />
     <Compile Include="继承ICloneable\Resume.cs" />
+    <Compile Include="继承ICloneable\ResumeDeepCopy.cs" />
     <Compile Include="继承ICloneable\WorkExperience.cs" />
+    <Compile Include="继承ICloneable\WorkExperienceDeepCopy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
