@@ -9,17 +9,16 @@ namespace PrototypePattern_原型模式_
         /// 原型模式，用原型实例指定创建对象的种类，并通过拷贝这些原型创建新的对象
         /// 原型模式其实就是从一个对象在创建另外一个可定制的对象，而且不需知道任何创建的细节
         /// </summary>
-        /// <param name="args"></param>
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("========Start:没有继承C# IConeable接口实现的浅复制原型模式=========");
+            Console.WriteLine("========Start:没有继承C# ICloneable接口实现的浅复制原型模式=========");
             ConcretePrototypeA cpa = new ConcretePrototypeA("I");
             ConcretePrototypeA cpaShallCopy = (ConcretePrototypeA)cpa.Clone();
             Console.WriteLine("Cloned:{0}",cpaShallCopy.Id);
-            Console.WriteLine("========End:没有继承C# IConeable接口实现的浅复制原型模式===========");
+            Console.WriteLine("========End:没有继承C# ICloneable接口实现的浅复制原型模式===========");
             #region IConeable说明
-            Console.WriteLine("========Start:继承C# IConeable接口实现的浅复制原型模式=============");
-            //.Net 在System 命名空间中提供了IConeable 接口，我们实现这个接口就可以完成原型模式了
+            Console.WriteLine("========Start:继承C# ICloneable接口实现的浅复制原型模式=============");
+            //.Net 在System 命名空间中提供了ICloneable 接口，我们实现这个接口就可以完成原型模式了
             Resume resume = new Resume("测试1");
             resume.SetPersonalInfo("男", 20);
             resume.SetWorkExperience(DateTime.Now, "测试公司");
@@ -34,11 +33,11 @@ namespace PrototypePattern_原型模式_
             resume.Display();
             resumeShallowCopy.Display();
             resumeShallowCopyB.Display();
-            Console.WriteLine("==========End继承C# IConeable接口实现的浅复制原型模式===================");
+            Console.WriteLine("==========End继承C# ICloneable接口实现的浅复制原型模式===================");
             #region 深复制
             //实现深复制的方式 反射（注意相互引用问题） 序列化和反序列化 表达式树
-            Console.WriteLine("========Start:继承C# IConeable接口实现的深复制原型模式=============");
-            //.Net 在System 命名空间中提供了IConeable 接口，我们实现这个接口就可以完成原型模式了
+            Console.WriteLine("========Start:继承C# ICloneable接口实现的深复制原型模式=============");
+            //.Net 在System 命名空间中提供了ICloneable 接口，我们实现这个接口就可以完成原型模式了
             ResumeDeepCopy resumeDeepCopy = new ResumeDeepCopy("测试1");
             resumeDeepCopy.SetPersonalInfo("男", 20);
             resumeDeepCopy.SetWorkExperience(DateTime.Now, "测试公司");
@@ -54,7 +53,7 @@ namespace PrototypePattern_原型模式_
             resumeDeepCopy.Display();
             resumeDeepCopyA.Display();
             resumeDeepCopyB.Display();
-            Console.WriteLine("==========End继承C# IConeable接口实现的深复制原型模式==================="); 
+            Console.WriteLine("==========End继承C# ICloneable接口实现的深复制原型模式==================="); 
             #endregion
 
             #region 浅复制模式说明
@@ -96,7 +95,7 @@ namespace PrototypePattern_原型模式_
             //　String s = "Hello";
             //Console.WriteLine(Object.ReferenceEquals("Hello", s));
             //这段代码显示的是"True"还是"False"呢？可能大家认为是返回"False"，
-            //毕竟，我们有两个"Hello"字符串，且ReferenceEuqals只有在两个引用都指向同一对象时才返回true。
+            //毕竟，我们有两个"Hello"字符串，且ReferenceEquals只有在两个引用都指向同一对象时才返回true。
             //然而，这段代码显示的是"True"。
             //当CLR初始化时，它会创建一个内部的散列表，其中的键为字符串，
             //值为指向托管堆中字符串对象的引用。刚开始，该表为空。
