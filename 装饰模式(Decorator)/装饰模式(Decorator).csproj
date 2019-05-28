@@ -46,6 +46,7 @@
     <Compile Include="Component.cs" />
     <Compile Include="ConcreteComponent.cs" />
     <Compile Include="ConcreteDecoratorA.cs" />
+    <Compile Include="ConcreteDecoratorB.cs" />
     <Compile Include="Decorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
