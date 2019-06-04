@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2037
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy(策略模式)", "23种设计模式\Strategy(策略模式).csproj", "{7553AACD-951E-4E89-9B0F-BAD4744FD166}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPatterWebForm", "BuilderPatterWebForm\BuilderPatterWebForm.csproj", "{FA199A1A-9261-4373-8E58-DE8E9A7C9B68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern(原型模式)", "PrototypePattern(原型模式)\PrototypePattern(原型模式).csproj", "{A5FB9AA0-70A8-4716-8A04-7EA7492DDFFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "适配器模式（AdapterPattern）", "适配器模式（AdapterPattern）\适配器模式（AdapterPattern）.csproj", "{4D57B626-18A9-4FF5-A8BF-C8AB88E90E4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{A5FB9AA0-70A8-4716-8A04-7EA7492DDFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5FB9AA0-70A8-4716-8A04-7EA7492DDFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5FB9AA0-70A8-4716-8A04-7EA7492DDFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D57B626-18A9-4FF5-A8BF-C8AB88E90E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D57B626-18A9-4FF5-A8BF-C8AB88E90E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D57B626-18A9-4FF5-A8BF-C8AB88E90E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D57B626-18A9-4FF5-A8BF-C8AB88E90E4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
