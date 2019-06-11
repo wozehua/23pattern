@@ -39,10 +39,10 @@ namespace PrototypePattern_原型模式_.继承ICloneable
         }
         public object Clone()
         {
-            ResumeDeepCopy resumeDeepCopy = new ResumeDeepCopy(_workExperienceDeepCopy);
-            resumeDeepCopy._name = _name;
-            resumeDeepCopy._sex = _sex;
-            resumeDeepCopy._age = _age;
+            ResumeDeepCopy resumeDeepCopy = new ResumeDeepCopy(_workExperienceDeepCopy)
+            {
+                _name = _name, _sex = _sex, _age = _age
+            };
             return resumeDeepCopy;
         }
     }
