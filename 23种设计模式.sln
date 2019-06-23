@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern(观察者�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern(抽象工厂模式)", "AbstractFactoryPattern(抽象工厂模式)\AbstractFactoryPattern(抽象工厂模式).csproj", "{E996B995-B6F3-4047-9B69-D811D4893BA9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern(状态模式)", "StatePattern\StatePattern(状态模式).csproj", "{29C74D22-174A-4F4C-8627-132AEB8E4C10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{E996B995-B6F3-4047-9B69-D811D4893BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E996B995-B6F3-4047-9B69-D811D4893BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E996B995-B6F3-4047-9B69-D811D4893BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C74D22-174A-4F4C-8627-132AEB8E4C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C74D22-174A-4F4C-8627-132AEB8E4C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C74D22-174A-4F4C-8627-132AEB8E4C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C74D22-174A-4F4C-8627-132AEB8E4C10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
