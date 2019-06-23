@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BuilderPattern_建造者模式_
 {
@@ -20,6 +16,7 @@ namespace BuilderPattern_建造者模式_
             Director director = new Director();
             director.Construct(concreteBuilder2);
             Product product = concreteBuilder2.GetResult();
+            //Console.WriteLine(product.);
             product.Show();
 
             director.Construct(concreteBuilder1);
