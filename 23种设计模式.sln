@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern(抽�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern(状态模式)", "StatePattern\StatePattern(状态模式).csproj", "{29C74D22-174A-4F4C-8627-132AEB8E4C10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern(备忘录模式)", "MementoPattern(备忘录模式)\MementoPattern(备忘录模式).csproj", "{DB3D0950-0D05-4FAF-9E53-9F71B526A2EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{29C74D22-174A-4F4C-8627-132AEB8E4C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C74D22-174A-4F4C-8627-132AEB8E4C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29C74D22-174A-4F4C-8627-132AEB8E4C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3D0950-0D05-4FAF-9E53-9F71B526A2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3D0950-0D05-4FAF-9E53-9F71B526A2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3D0950-0D05-4FAF-9E53-9F71B526A2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3D0950-0D05-4FAF-9E53-9F71B526A2EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
