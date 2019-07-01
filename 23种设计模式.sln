@@ -27,11 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePattern(外观模式)
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern(观察者模式)", "ObserverPattern(观察这模式)\ObserverPattern(观察者模式).csproj", "{9A3FB011-C24D-422B-A155-5FDA5A2080EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern(抽象工厂模式)", "AbstractFactoryPattern(抽象工厂模式)\AbstractFactoryPattern(抽象工厂模式).csproj", "{E996B995-B6F3-4047-9B69-D811D4893BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern(抽象工厂模式)", "AbstractFactoryPattern(抽象工厂模式)\AbstractFactoryPattern(抽象工厂模式).csproj", "{E996B995-B6F3-4047-9B69-D811D4893BA9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern(状态模式)", "StatePattern\StatePattern(状态模式).csproj", "{29C74D22-174A-4F4C-8627-132AEB8E4C10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern(备忘录模式)", "MementoPattern(备忘录模式)\MementoPattern(备忘录模式).csproj", "{DB3D0950-0D05-4FAF-9E53-9F71B526A2EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern(备忘录模式)", "MementoPattern(备忘录模式)\MementoPattern(备忘录模式).csproj", "{DB3D0950-0D05-4FAF-9E53-9F71B526A2EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern(组合模式)", "CompositePattern(组合模式)\CompositePattern(组合模式).csproj", "{34723FCD-B81A-4487-8156-19CE532FCBFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{DB3D0950-0D05-4FAF-9E53-9F71B526A2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB3D0950-0D05-4FAF-9E53-9F71B526A2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB3D0950-0D05-4FAF-9E53-9F71B526A2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34723FCD-B81A-4487-8156-19CE532FCBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34723FCD-B81A-4487-8156-19CE532FCBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34723FCD-B81A-4487-8156-19CE532FCBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34723FCD-B81A-4487-8156-19CE532FCBFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
