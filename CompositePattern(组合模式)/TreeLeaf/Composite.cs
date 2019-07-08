@@ -5,7 +5,7 @@ namespace CompositePattern_组合模式_.TreeLeaf
 {
     class Composite:Component
     {
-        private List<Component> _children = new List<Component>();
+        private readonly List<Component> _children = new List<Component>();
         public Composite(string name) : base(name)
         {
         }
