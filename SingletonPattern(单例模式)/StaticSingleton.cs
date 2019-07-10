@@ -11,6 +11,11 @@
     /// </summary>
     public sealed class StaticSingleton
     {
+        /// <summary>
+        /// sealed 阻止发生派生，而派生可能会增加实例。
+        /// 饿汉式，即静态初始化方式，他是类一加载就实例化对象，所以要提前占用系统资源。
+        /// 懒汉式，又会面临着多线程访问的安全性问题。需要做双重锁定这样的处理才可以保证安全。
+        /// </summary>
         private static readonly StaticSingleton staticSingleton = new StaticSingleton();
 
         private StaticSingleton()
