@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern(组合模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern(迭代器模式)", "IteratorPattern(迭代器模式)\IteratorPattern(迭代器模式).csproj", "{729BD1B2-AAEB-432E-B012-CD662C68F367}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern(单例模式)", "SingletonPattern(单例模式)\SingletonPattern(单例模式).csproj", "{6AEE08AB-F151-44C8-864B-55FBF83C5977}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{729BD1B2-AAEB-432E-B012-CD662C68F367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{729BD1B2-AAEB-432E-B012-CD662C68F367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{729BD1B2-AAEB-432E-B012-CD662C68F367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEE08AB-F151-44C8-864B-55FBF83C5977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEE08AB-F151-44C8-864B-55FBF83C5977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEE08AB-F151-44C8-864B-55FBF83C5977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEE08AB-F151-44C8-864B-55FBF83C5977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
