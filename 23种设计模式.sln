@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern(备忘录模
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern(组合模式)", "CompositePattern(组合模式)\CompositePattern(组合模式).csproj", "{34723FCD-B81A-4487-8156-19CE532FCBFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern(迭代器模式)", "IteratorPattern(迭代器模式)\IteratorPattern(迭代器模式).csproj", "{729BD1B2-AAEB-432E-B012-CD662C68F367}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern(迭代器模式)", "IteratorPattern(迭代器模式)\IteratorPattern(迭代器模式).csproj", "{729BD1B2-AAEB-432E-B012-CD662C68F367}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern(单例模式)", "SingletonPattern(单例模式)\SingletonPattern(单例模式).csproj", "{6AEE08AB-F151-44C8-864B-55FBF83C5977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern(单例模式)", "SingletonPattern(单例模式)\SingletonPattern(单例模式).csproj", "{6AEE08AB-F151-44C8-864B-55FBF83C5977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern(桥接模式)", "BridgePattern(桥接模式)\BridgePattern(桥接模式).csproj", "{5DB06CEC-87BE-4239-BC04-D400F638E8D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{6AEE08AB-F151-44C8-864B-55FBF83C5977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AEE08AB-F151-44C8-864B-55FBF83C5977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AEE08AB-F151-44C8-864B-55FBF83C5977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB06CEC-87BE-4239-BC04-D400F638E8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB06CEC-87BE-4239-BC04-D400F638E8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB06CEC-87BE-4239-BC04-D400F638E8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB06CEC-87BE-4239-BC04-D400F638E8D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
