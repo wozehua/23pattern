@@ -1,4 +1,5 @@
 ﻿using System;
+using CommandPattern_命令模式_.Example;
 
 namespace CommandPattern_命令模式_
 {
@@ -10,11 +11,21 @@ namespace CommandPattern_命令模式_
     {
         static void Main(string[] args)
         {
-            Receiver receiver = new Receiver();
-            Command command = new ConcreteCommand(receiver);
-            Invoker invoker = new Invoker();
-            invoker.SetCommand(command);
-            invoker.ExecuteCommand();
+            #region 命令模式
+            //Receiver receiver = new Receiver();
+            //Command command = new ConcreteCommand(receiver);
+            //Invoker invoker = new Invoker();
+            //invoker.SetCommand(command);
+            //invoker.ExecuteCommand(); 
+            #endregion
+
+            #region 列子
+
+            //Barbecuer barbecuer = new Barbecuer();
+            //Command bakeMuttonCommand1 = new BakeMuttonCommand(barbecuer);
+
+
+            #endregion
             Console.Read();
         }
     }

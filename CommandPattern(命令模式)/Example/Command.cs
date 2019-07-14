@@ -8,7 +8,7 @@ namespace CommandPattern_命令模式_.Example
     {
         protected Barbecuer Barbecuer;
 
-        protected Command(Barbecuer barbecuer)
+        public Command(Barbecuer barbecuer)
         {
             Barbecuer = barbecuer;
         }
