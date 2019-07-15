@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityPatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern(中介者模式)", "MediatorPattern(中介者模式)\MediatorPattern(中介者模式).csproj", "{48B17A8A-6432-4408-9ECA-24F0D49690AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWeight(享元模式)", "FlyWeight(享元模式)\FlyWeight(享元模式).csproj", "{C1DDEB47-EB48-47C6-A0C7-71D1C257F01C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{48B17A8A-6432-4408-9ECA-24F0D49690AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48B17A8A-6432-4408-9ECA-24F0D49690AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B17A8A-6432-4408-9ECA-24F0D49690AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DDEB47-EB48-47C6-A0C7-71D1C257F01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DDEB47-EB48-47C6-A0C7-71D1C257F01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DDEB47-EB48-47C6-A0C7-71D1C257F01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DDEB47-EB48-47C6-A0C7-71D1C257F01C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
