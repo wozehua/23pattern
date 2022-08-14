@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>FactoryMethodPattern_工厂方法模式_</RootNamespace>
     <AssemblyName>FactoryMethodPattern%28工厂方法模式%29</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

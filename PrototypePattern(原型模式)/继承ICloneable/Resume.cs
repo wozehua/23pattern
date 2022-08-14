@@ -12,6 +12,7 @@ namespace PrototypePattern_原型模式_.继承ICloneable
         public Resume(string name)
         {
             _workExperience = new WorkExperience();
+            _name = name;
         }
         /// <summary>
         /// 
